@@ -1,4 +1,7 @@
-body {
-    background-image: url(./Book\ image.jpg);
-    
+html {
+    background-image: url(./bookshop\ table.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: full;
+    background-size:medium;
 }
