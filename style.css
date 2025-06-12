@@ -2,6 +2,7 @@ html {
     background-image: url(./bookshop\ table.png);
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: full;
+    background-position: center;
     background-size:medium;
+    background-attachment: fixed;
 }
