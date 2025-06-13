@@ -14,21 +14,63 @@
         font-family: Georgia;
         text-shadow: 3px 3px 6px hwb(222 12% 2% / 0.4)
     }
-    .resume{
-        display:flex;
-        flex-direction: column;
-        height:650px;
+    .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
     }
-    .photo{
-        float:right;
+    .left-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
     }
+    .text-box{
+    color: rgb(20, 11, 148);
+    width: 100%;
+    height: 250px;
+    font-weight: 700;
+    background-color: blanchedalmond;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px outset #110101;
+    }
+    .photo {
+    height: 430px;
+    border: 10px groove #100101;
+    margin-left: 175px;
+   }
+    .resume {
+    height: 700px;
+    border: 10px ridge #0d0101;
+    }
+
     
 </style>
 <body>
 <h1>About Me & Resume</h1>
-<div id="box">
-<img class="resume" src="./resume.png" alt="resume" />
-<img class="photo" src="./photo of me.png" alt="me" />
+<div class="top-section"> 
+<div class="left-column">
+<div class="text-box">
+    <p>Hey there! My name is Anna. I am a student at NYC College of Technology. <br />
+    I decided to return to school for a second Bachelor's degree in Computer Systems <br />
+    since I have always loved technology and want to work in the tech field. My first Bachelor's  <br />
+    is in General Psychology from Baruch College. My favorite hobby is to read so I decided <br />
+    to design this site based off of getting a book from the library "to find out more information 
+    on a topic". 
+    </p>
+    <p>One day, I would love to work in either the health & wellness sphere of tech or <br />
+    in publishing. My second favorite hobby is to work out. And so, I feel that I could enjoy my <br />
+    job in software development in the health & wellness field or publishing. 
+    </p>
 </div>
+<img src="./photo of me.png" alt="photo of me" class="photo"/>
+</div>
+<img src="./resume.png" alt="resume" class="resume"/>
+</div>
+
+
+
 </body>
 </html>
